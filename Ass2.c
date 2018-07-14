@@ -1,15 +1,12 @@
+//HORIZONTAL OIL SEPERATOR
 #include<stdio.h>
 #include<math.h>
 int D=10,temp2,temp3,t2;
 double p0=53.02,pg=3.70,dm=100,ug=0.013,Uo,Re,cd1,d2,y,x,P=1000,Z=0.84,Qg=15,T=520,t=3,Q0=3000,R,ratio,ratio1,ratio01,ratio11,rounded_cd1,temp,LgD,Ls,Ls1,Lg,D2L,L0,r1,r2;
 double cd = 0.34;
 
-
-
-//3
 double Calculate_RG(double r, int d, double cratio)
-{
-	
+{	
 	temp2=d;
 	y = ((pg/(p0-pg))*(r/dm));
 	
